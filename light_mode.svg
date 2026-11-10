@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1050px" height="470px" font-family="ConsolasFallback,Consolas,Menlo,monospace" font-size="15px" xml:space="preserve" role="img" aria-label="GitHub profile card">
+<style>@font-face{src:local('Consolas'),local('Menlo'),local('Cascadia Mono');font-family:'ConsolasFallback';size-adjust:109%;}.k{fill:#953800}.v{fill:#0550ae}.cc{fill:#8c959f}.a{fill:#1a7f37}.d{fill:#cf222e}.t{fill:#953800;font-weight:bold}text,tspan{white-space:pre;}</style>
+<rect x="0.5" y="0.5" width="1049" height="469" rx="15" fill="#ffffff" stroke="#d0d7de"/>
+<text x="16" y="30" fill="#6e7781">
+<tspan x="16" y="30">                       .++.        .+@-</tspan>
+<tspan x="16" y="49">                       ..           .%.</tspan>
+<tspan x="16" y="68">                                    ..</tspan>
+<tspan x="16" y="87">                         ..#%+=+++--=-: .</tspan>
+<tspan x="16" y="106">              :-=+*###++*++@@@@@@@%#****+==:</tspan>
+<tspan x="16" y="125">           .-+=--=#@@@@@@#%@@@#@@*%@@%*+*#+**.</tspan>
+<tspan x="16" y="144">          ::. .=#@@@@@@@@:%@@%-@@#%@@@@@*=#+*@=</tspan>
+<tspan x="16" y="163">            :+@@@@@@@@@@+.%#@%=++@:%@@@@@%=#++@=</tspan>
+<tspan x="16" y="182">          -**+@@@@@@@@%*+=#:%@:==#-=*@@@@@#-%-%@</tspan>
+<tspan x="16" y="201">        .=+::%@+#@@@%:*-@+=:*@.+%=+%-+%%@@*==*+@</tspan>
+<tspan x="16" y="220">       .:.  #@@-@@@@+-=+@% +-@-*@+.*@+*@@@@#.+=@</tspan>
+<tspan x="16" y="239">           .@@=:@@@#=+ --*-+#=+*@@..=+--%#@#*:=*</tspan>
+<tspan x="16" y="258">           -@- --@*=-+=. .#%@+:=@%+. :*-*.#+=-*#</tspan>
+<tspan x="16" y="277">      ..   += :#=%.-=%+=*:*@@@::@#.#*-=#%#-+*+:@</tspan>
+<tspan x="16" y="296">      .....:..-%-=-=#=%=++@@@@%#@@*+++-+%@:.*@%%</tspan>
+<tspan x="16" y="315">    .....::.:..%- %@+=@@@@@@@@@@@@@%@:=%@=*.*@@%</tspan>
+<tspan x="16" y="334">..         .    .*@@#:=+***##*#*****=:*@#:=:==-+</tspan>
+<tspan x="16" y="353">::              :@@*:+%#%%#+=+#%%@@@:=%@-#=+%*+=</tspan>
+<tspan x="16" y="372">  ..            *#@::=%@##%%@@@@@@@++@@%-@#+*%@-</tspan>
+<tspan x="16" y="391">     ...... =#.:+.@:.%@***+++*#%@@#:%=**=#*=*%-#</tspan>
+<tspan x="16" y="410">          .:-+-:+*+*==-++--=+*-+**-=*:*-*%+-@#++</tspan>
+<tspan x="16" y="429">  .   ..:-===+=.+#-#*+*=%@@@=**=%#+-*=-%@@@=#*@%</tspan>
+</text>
+<text x="478" y="30" fill="#1f2328">
+<tspan x="478" y="30"><tspan class="t">sakura-del@guiyang</tspan><tspan class="cc"> ──────────────────────────────────────────</tspan></tspan>
+<tspan x="478" y="49"><tspan class="cc">. </tspan><tspan class="k">OS</tspan><tspan class="cc">:</tspan><tspan class="cc"> ....................... </tspan><tspan class="v">Windows, Linux (WSL)</tspan></tspan>
+<tspan x="478" y="68"><tspan class="cc">. </tspan><tspan class="k">Uptime</tspan><tspan class="cc">:</tspan><tspan class="cc"> ................... </tspan><tspan class="v">1 year, 2 months, 13 days</tspan></tspan>
+<tspan x="478" y="87"><tspan class="cc">. </tspan><tspan class="k">Host</tspan><tspan class="cc">:</tspan><tspan class="cc"> ..................... </tspan><tspan class="v">Guiyang, China</tspan></tspan>
+<tspan x="478" y="106"><tspan class="cc">. </tspan><tspan class="k">Shell</tspan><tspan class="cc">:</tspan><tspan class="cc"> .................... </tspan><tspan class="v">PowerShell, zsh</tspan></tspan>
+<tspan x="478" y="125"><tspan class="cc">. </tspan><tspan class="k">IDE</tspan><tspan class="cc">:</tspan><tspan class="cc"> ...................... </tspan><tspan class="v">VSCode, PyCharm, IDEA</tspan></tspan>
+<tspan x="478" y="144"><tspan class="cc">.</tspan></tspan>
+<tspan x="478" y="163"><tspan class="cc">. </tspan><tspan class="k">Languages.Programming</tspan><tspan class="cc">:</tspan><tspan class="cc"> .... </tspan><tspan class="v">Python, TypeScript, Vue</tspan></tspan>
+<tspan x="478" y="182"><tspan class="cc">. </tspan><tspan class="k">Languages.Computer</tspan><tspan class="cc">:</tspan><tspan class="cc"> ....... </tspan><tspan class="v">HTML, CSS, SCSS, Shell</tspan></tspan>
+<tspan x="478" y="201"><tspan class="cc">. </tspan><tspan class="k">Languages.Real</tspan><tspan class="cc">:</tspan><tspan class="cc"> ........... </tspan><tspan class="v">中文, English</tspan></tspan>
+<tspan x="478" y="220"><tspan class="cc">.</tspan></tspan>
+<tspan x="478" y="239"><tspan class="cc">. </tspan><tspan class="k">Focus.AI</tspan><tspan class="cc">:</tspan><tspan class="cc"> ................. </tspan><tspan class="v">Multi-Agent, RAG, Prompt Eng.</tspan></tspan>
+<tspan x="478" y="258"><tspan class="cc">. </tspan><tspan class="k">Focus.Web</tspan><tspan class="cc">:</tspan><tspan class="cc"> ................ </tspan><tspan class="v">Full-stack · Vue, TypeScript</tspan></tspan>
+<tspan x="478" y="277"><tspan class="cc">.</tspan></tspan>
+<tspan x="478" y="296"><tspan class="t">- Contact</tspan><tspan class="cc"> ───────────────────────────────────────────────────</tspan></tspan>
+<tspan x="478" y="315"><tspan class="cc">. </tspan><tspan class="k">Email</tspan><tspan class="cc">:</tspan><tspan class="cc"> .................... </tspan><tspan class="v">2953595093@qq.com</tspan></tspan>
+<tspan x="478" y="334"><tspan class="cc">. </tspan><tspan class="k">GitHub</tspan><tspan class="cc">:</tspan><tspan class="cc"> ................... </tspan><tspan class="v">github.com/sakura-del</tspan></tspan>
+<tspan x="478" y="353"><tspan class="cc">. </tspan><tspan class="k">Blog</tspan><tspan class="cc">:</tspan><tspan class="cc"> ..................... </tspan><tspan class="v">intelligent-creation.vercel.app</tspan></tspan>
+<tspan x="478" y="372"><tspan class="cc">.</tspan></tspan>
+<tspan x="478" y="391"><tspan class="t">- GitHub Stats</tspan><tspan class="cc"> ──────────────────────────────────────────────</tspan></tspan>
+<tspan x="478" y="410"><tspan class="cc">. </tspan><tspan class="k">Repos</tspan><tspan class="cc">:</tspan><tspan class="cc"> .................... </tspan><tspan class="v">11 {Contributed: 12}</tspan><tspan class="cc"> | </tspan><tspan class="k">Stars</tspan><tspan class="cc">:</tspan><tspan class="cc"> </tspan><tspan class="v">2</tspan></tspan>
+<tspan x="478" y="429"><tspan class="cc">. </tspan><tspan class="k">Commits</tspan><tspan class="cc">:</tspan><tspan class="cc"> .................. </tspan><tspan class="v">527</tspan><tspan class="cc"> | </tspan><tspan class="k">Followers</tspan><tspan class="cc">:</tspan><tspan class="cc"> ... </tspan><tspan class="v">0</tspan></tspan>
+<tspan x="478" y="448"><tspan class="cc">. </tspan><tspan class="k">Lines of Code</tspan><tspan class="cc">:</tspan><tspan class="cc"> ............ </tspan><tspan class="v">589,912</tspan><tspan class="cc"> ( </tspan><tspan class="a">613,378</tspan><tspan class="a">++</tspan><tspan class="cc">, </tspan><tspan class="d">23,466</tspan><tspan class="d">--</tspan><tspan class="cc"> )</tspan></tspan>
+</text>
+</svg>

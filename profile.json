@@ -1,0 +1,72 @@
+{
+  "username": "sakura-del",
+  "host": "guiyang",
+  "email": "2953595093@qq.com",
+  "sections": [
+    {
+      "title": "{{username}}@{{host}}",
+      "fields": [
+        { "key": "OS", "value": "Windows, Linux (WSL)" },
+        { "key": "Uptime", "value": "{{uptime}}" },
+        { "key": "Host", "value": "Guiyang, China" },
+        { "key": "Shell", "value": "PowerShell, zsh" },
+        { "key": "IDE", "value": "VSCode, PyCharm, IDEA" }
+      ]
+    },
+    {
+      "blank_before": true,
+      "fields": [
+        { "key": "Languages.Programming", "value": "{{langs}}" },
+        { "key": "Languages.Computer", "value": "{{markup}}" },
+        { "key": "Languages.Real", "value": "中文, English" }
+      ]
+    },
+    {
+      "blank_before": true,
+      "fields": [
+        { "key": "Focus.AI", "value": "Multi-Agent, RAG, Prompt Eng." },
+        { "key": "Focus.Web", "value": "Full-stack · Vue, TypeScript" }
+      ]
+    },
+    {
+      "title": "- Contact",
+      "blank_before": true,
+      "fields": [
+        { "key": "Email", "value": "{{email}}" },
+        { "key": "GitHub", "value": "github.com/{{username}}" },
+        { "key": "Blog", "value": "{{blog}}" }
+      ]
+    }
+  ],
+  "stats": {
+    "enabled": true,
+    "title": "- GitHub Stats",
+    "rows": [
+      {
+        "type": "pair",
+        "left_key": "Repos",
+        "left_value": "{{repos}} {Contributed: {{contributed}}}",
+        "right_key": "Stars",
+        "right_value": "{{stars}}"
+      },
+      {
+        "type": "pair",
+        "left_key": "Commits",
+        "left_value": "{{commits}}",
+        "right_key": "Followers",
+        "right_value": "{{followers}}"
+      },
+      { "type": "loc", "key": "Lines of Code" }
+    ]
+  },
+  "avatar": {
+    "file": "avatar.png",
+    "cols": 48,
+    "crop": [40, 80, 430, 460],
+    "lo": 0.45,
+    "hi": 0.9,
+    "gamma": 1.0,
+    "sharpen": 0.9,
+    "blur": 0.8
+  }
+}
