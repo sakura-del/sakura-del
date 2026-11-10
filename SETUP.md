@@ -54,6 +54,18 @@ python generate.py --offline                # 只用 cache，不联网
 
 ## 4. 常见问题
 
+- **Actions 起不来，注解写着 `your account is locked due to a billing issue`**：这不是 workflow 的问题，
+  GitHub 因为账单问题不给分配 runner。去 <https://github.com/settings/billing> 处理后，
+  在 Actions 页面点 `Run workflow`（或随便推一个改动）即可。期间的应急刷新：
+
+  ```powershell
+  cd C:\Users\Lenovo\Desktop\github-profile-card
+  python generate.py --refresh
+  git add dark_mode.svg light_mode.svg cache/stats.json
+  git commit -m "chore: refresh profile card"
+  git push
+  ```
+
 - **改了 SVG，主页没变**：GitHub 的图片走 camo 代理，会缓存几小时。给 README 里的 URL 加 `?v=2` 之类的参数可立即刷新。
 - **深色/浅色不一致**：靠 `<picture>` + `prefers-color-scheme` 切两张图，浏览器设置跟随 GitHub 主题。
 - **中文字宽**：SVG 用 Consolas + 中文回退字体，中文按 2 格算；`Languages.Real` 这类中文只出现在行尾，不影响对齐。
