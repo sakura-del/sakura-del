@@ -106,6 +106,14 @@ def fetch_data(username, token, refresh=False):
             log("  cache: %.1f h old (--refresh to re-fetch)" % ((time.time() - cached["_ts"]) / 3600))
             return cached
 
+    prev = {}
+    if os.path.exists(cache_path):
+        try:
+            with open(cache_path, "r", encoding="utf-8") as f:
+                prev = json.load(f)
+        except Exception:                           # noqa: BLE001 - corrupt cache
+            prev = {}
+
     log("  GET /users/%s" % username)
     user, _ = http_json("%s/users/%s" % (API, username), token)
     log("  GET /users/%s/repos" % username)
@@ -142,6 +150,11 @@ def fetch_data(username, token, refresh=False):
             log("    ! code_frequency %s: %s" % (full, e))
         log("    ok %s" % full)
 
+    def keep(new, old):
+        """If a metric could not be fetched this run, keep the previous value
+        instead of publishing a wrong 0 (CI rate limits, 202s, ...)."""
+        return new if new else old
+
     data = dict(
         username=username,
         name=user.get("name"),
@@ -154,13 +167,14 @@ def fetch_data(username, token, refresh=False):
         stars=stars,
         followers=user.get("followers", 0),
         following=user.get("following", 0),
-        commits=commits,
-        loc_add=loc_add,
-        loc_del=loc_del,
-        loc=loc_add - loc_del,
-        languages=languages,
+        commits=keep(commits, prev.get("commits", 0)),
+        loc_add=keep(loc_add, prev.get("loc_add", 0)),
+        loc_del=keep(loc_del, prev.get("loc_del", 0)),
+        loc=0,
+        languages=languages or prev.get("languages") or {},
         _ts=time.time(),
     )
+    data["loc"] = data["loc_add"] - data["loc_del"]
     os.makedirs(cache_dir, exist_ok=True)
     with open(cache_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
