@@ -41,7 +41,7 @@ THEMES = {
     "dark": dict(bg="#161b22", stroke="#30363d", text="#c9d1d9", k="#ffa657",
                  v="#a5d6ff", cc="#616e7f", a="#3fb950", d="#f85149", pt="#8b949e"),
     "light": dict(bg="#ffffff", stroke="#d0d7de", text="#1f2328", k="#953800",
-                  v="#0550ae", cc="#8c959f", a="#1a7f37", d="#cf222e", pt="#6e7781"),
+                  v="#0550ae", cc="#8c959f", a="#1a7f37", d="#cf222e", pt="#424a53"),
 }
 
 RAMP = " .:-=+*#%@"
